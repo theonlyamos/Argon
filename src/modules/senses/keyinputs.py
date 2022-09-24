@@ -18,7 +18,8 @@ class Getcmd(object):
         x = sw-w
         y = 0
 
-        self.root.geometry("+{0}+{1}".format(x, y))
+        self.root.minsize(width=200, height=100)
+        #self.root.geometry("+{0}+{1}".format(x, y))
         self.root.title('Argon')
 
         frame = Frame(self.root)

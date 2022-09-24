@@ -1,7 +1,7 @@
-from modules import Memory
-from threading import Thread
+from .modules import Memory
+from .modules.senses.keyinputs import Getcmd
 
-from modules.senses.keyinputs import Getcmd
+from threading import Thread
 
 __author__ = 'piper'
 
