@@ -7,6 +7,9 @@ __pycache__/
 *.db
 *.dir
 
+# Ignored folders and files
+audio/
+
 # IDEs
 .vscode/
 .idea/
